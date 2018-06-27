@@ -76,14 +76,14 @@ def scheme_grouper(text, getreffs):
 
 nautilus = FlaskNautilus(
     app=app,
-    prefix="/geste/api",
+    prefix="/elec/geste/api",
     name="nautilus",
     resolver=NautilusDummy
 )
 
 nemo = Nemo(
     app=app,
-    base_url="/geste",
+    base_url="/elec/geste",
     resolver=NautilusDummy,
     chunker={"default": scheme_grouper},
     plugins=None,
@@ -110,8 +110,8 @@ nemo = Nemo(
 )
 
 cache.init_app(app)
-app["SERVER_NAME"] = "corpus.enc.sorbonne.fr"
-app["APPLICATION_ROOT"] = "/geste"
+# app["SERVER_NAME"] = "dev.chartes.psl.eu"
+# app["APPLICATION_ROOT"] = "/elec/geste"
 
 if __name__ == "__main__":
     app.run()
