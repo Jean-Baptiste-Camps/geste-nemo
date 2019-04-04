@@ -3,5 +3,5 @@ python:
 - '3.6'
 install:
 - pip3 install HookTest
-script:  hooktest --console --scheme tei --workers 3 --verbose 5 --manifest --countword --allowfailure ./
+script: travis_wait 30 hooktest --console --scheme tei --workers 3 --verbose 5 --manifest --countword --allowfailure ./
 
