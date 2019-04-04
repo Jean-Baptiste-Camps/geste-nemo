@@ -5,48 +5,6 @@
          xml:lang="fro">
    <ti:title xml:lang="fre">Garin le Lorrain</ti:title>
    <ti:edition workUrn="urn:cts:froLit:geste.jns5643"
-               urn="urn:cts:froLit:geste.jns5643.transcr_GarLorr_X">
-      <ti:label xml:lang="fre">
-                Garin le Lorrain: 
-                Transcription allographétique du fragment de la
-                    bibliothèque vaticane (Vat. lat. 273)
-                , éd. par Jean-Baptiste Camps, 
-            </ti:label>
-      <ti:description xml:lang="fre">
-                
-                    
-                        VATICANO (CITTA DEL)
-                        Biblioteca apostolica Vaticana
-                        
-                        Vat. lat. 00273
-                        
-                    
-                
-                
-                    
-                        , éd. par 
-                            
-                                Xenia
-                                Pamfilova 
-                            
-                        , 
-                        
-                        Fragments de manuscrits de chansons de geste
-                        10.3406/roma.1931.4053
-                    
-                    
-                        Romania
-                        
-                            Paris
-                            1931
-                        
-                        t. 57
-                        504-547
-                    
-                
-            </ti:description>
-   </ti:edition>
-   <ti:edition workUrn="urn:cts:froLit:geste.jns5643"
                urn="urn:cts:froLit:geste.jns5643.ed_GarLorrPa">
       <ti:label xml:lang="fre">
                 Garin le Lorrain: 
@@ -174,6 +132,48 @@
             
             
          </ti:description>
+   </ti:edition>
+   <ti:edition workUrn="urn:cts:froLit:geste.jns5643"
+               urn="urn:cts:froLit:geste.jns5643.transcr_GarLorr_X">
+      <ti:label xml:lang="fre">
+                Garin le Lorrain: 
+                Transcription allographétique du fragment de la
+                    bibliothèque vaticane (Vat. lat. 273)
+                , éd. par Jean-Baptiste Camps, 
+            </ti:label>
+      <ti:description xml:lang="fre">
+                
+                    
+                        VATICANO (CITTA DEL)
+                        Biblioteca apostolica Vaticana
+                        
+                        Vat. lat. 00273
+                        
+                    
+                
+                
+                    
+                        , éd. par 
+                            
+                                Xenia
+                                Pamfilova 
+                            
+                        , 
+                        
+                        Fragments de manuscrits de chansons de geste
+                        10.3406/roma.1931.4053
+                    
+                    
+                        Romania
+                        
+                            Paris
+                            1931
+                        
+                        t. 57
+                        504-547
+                    
+                
+            </ti:description>
    </ti:edition>
    <ti:edition workUrn="urn:cts:froLit:geste.jns5643"
                urn="urn:cts:froLit:geste.jns5643.ed_GarLorrMo">
