@@ -44,7 +44,7 @@ NautilusDummy.logger.setLevel(logging.ERROR)
 
 def scheme_grouper(text, getreffs):
     level = len(text.citation)
-    groupby = 5
+    groupby = 100 
     types = [citation.name for citation in text.citation]
 
     if 'word' in types:
