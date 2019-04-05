@@ -1,4 +1,6 @@
 ./data/geste/__cts__.xml
+./data/geste/jns11089/__cts__.xml
+./data/geste/jns11089/geste.jns11089.transcr_AnsMetz_U.xml
 ./data/geste/jns11095/__cts__.xml
 ./data/geste/jns11095/geste.jns11095.transcr_Otin_M.xml
 ./data/geste/jns3669/__cts__.xml

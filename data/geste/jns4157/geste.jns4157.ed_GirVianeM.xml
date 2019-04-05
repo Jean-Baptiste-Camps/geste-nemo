@@ -116,11 +116,6 @@ un peu partout. J'en ai rétabli certains.
         </fileDesc>
       <encodingDesc>
          <refsDecl n="CTS">
-            <cRefPattern n="mot"
-                         matchPattern="(\w+)(\w+)"
-                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body//tei:l[@n='$1']//tei:w[@xml:id='$2'])">
-               <p>Ce pointeur extrait les mots</p>
-            </cRefPattern>
             <cRefPattern n="vers"
                          matchPattern="(\w+)"
                          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body//tei:l[@n='$1'])">
@@ -369,7 +364,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">:</pc>
                         </q>
                     </l>
-                    <l xml:id="edM_l_5" n="5">
+                    <l n="5" xml:id="edM_l_5">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000028">Dex</w>
@@ -389,7 +384,7 @@ un peu partout. J'en ai rétabli certains.
                         </q>
                     </l>
                     <note resp="#PM">moieté, corr. majeté qui se trouve plus loin.</note>
-                    <l n="5" xml:id="edM_l_5">
+                    <l n="6" xml:id="edM_l_6">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000035">Qe</w>
@@ -404,7 +399,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l n="6" xml:id="edM_l_6">
+                    <l n="7" xml:id="edM_l_7">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000043">Pruedom</w>
@@ -425,7 +420,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">:</pc>
                         </q>
                     </l>
-                    <l n="7" xml:id="edM_l_7">
+                    <l n="8" xml:id="edM_l_8">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000050">N</w>
@@ -439,7 +434,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l n="8" xml:id="edM_l_8">
+                    <l n="9" xml:id="edM_l_9">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000057">S</w>
@@ -457,7 +452,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l xml:id="edM_l_10" n="10">
+                    <l n="10" xml:id="edM_l_10">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000067">Molt</w>
@@ -469,7 +464,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l n="9" xml:id="edM_l_9">
+                    <l n="11" xml:id="edM_l_11">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000073">Qi</w>
@@ -482,7 +477,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="10" xml:id="edM_l_10">
+                    <l n="12" xml:id="edM_l_12">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000079">Moi</w>
@@ -497,7 +492,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l n="11" xml:id="edM_l_11">
+                    <l n="13" xml:id="edM_l_13">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000087">D</w>
@@ -519,7 +514,7 @@ un peu partout. J'en ai rétabli certains.
                      </note>
                         </q>
                     </l>
-                    <l n="12" xml:id="edM_l_12" rend="indent">
+                    <l n="14" xml:id="edM_l_14" rend="indent">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000095">Car</w>
@@ -543,7 +538,7 @@ un peu partout. J'en ai rétabli certains.
                     </l>
                 </lg>
                 <lg type="laisse">
-                    <l xml:id="edM_l_15" n="15">
+                    <l n="15" xml:id="edM_l_15">
                         <w xml:id="edM_w_000102">Au</w>
                         <w xml:id="edM_w_000103">matinet</w>
                         <pc type="supplied">,</pc>
@@ -555,7 +550,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000108">esclarie</w>
                         <pc type="supplied">,</pc>
                     </l>
-                    <l n="13" xml:id="edM_l_13">
+                    <l n="16" xml:id="edM_l_16">
                         <w xml:id="edM_w_000109">Hors</w>
                         <w xml:id="edM_w_000110">de</w>
                         <w xml:id="edM_w_000111">Viane</w>
@@ -575,14 +570,14 @@ un peu partout. J'en ai rétabli certains.
                         <note>B <mentioned>la grant</mentioned>
                   </note>
                     </l>
-                    <l n="14" xml:id="edM_l_14">
+                    <l n="17" xml:id="edM_l_17">
                         <w xml:id="edM_w_000117">Issi</w>
                         <w xml:id="edM_w_000118">armée</w>
                         <w xml:id="edM_w_000119">la</w>
                         <w xml:id="edM_w_000120">grant</w>
                         <w xml:id="edM_w_000121">chevalerie</w>
                     </l>
-                    <l n="15" xml:id="edM_l_15">
+                    <l n="18" xml:id="edM_l_18">
                         <w xml:id="edM_w_000122">Bien</w>
                         <w xml:id="edM_w_000123">sont</w>
                         <w xml:id="edM_w_000124">xx</w>
@@ -595,7 +590,7 @@ un peu partout. J'en ai rétabli certains.
                         <pc type="supplied">.</pc>
                         <note>Ce vers manque dans les deux mss.</note>
                     </l>
-                    <l n="16" xml:id="edM_l_16">
+                    <l n="19" xml:id="edM_l_19">
                         <w xml:id="edM_w_000129">Entre</w>
                         <w xml:id="edM_w_000130">le</w>
                         <w xml:id="edM_w_000131">bois</w>
@@ -605,7 +600,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000135">naïe</w>
                         <pc type="supplied">.</pc>
                     </l>
-                    <l xml:id="edM_l_20" n="20">
+                    <l n="20" xml:id="edM_l_20">
                         <w xml:id="edM_w_000136">De</w>
                         <w xml:id="edM_w_000137">Masconois</w>
                         <w xml:id="edM_w_000138">ont</w>
@@ -613,7 +608,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000140">proie</w>
                         <w xml:id="edM_w_000141">acoillie</w>
                     </l>
-                    <l n="17" xml:id="edM_l_17">
+                    <l n="21" xml:id="edM_l_21">
                         <w xml:id="edM_w_000142">Et</w>
                         <w xml:id="edM_w_000143">la</w>
                         <w xml:id="edM_w_000144">cité</w>
@@ -623,7 +618,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000148">sesie</w>
                         <pc type="supplied">;</pc>
                     </l>
-                    <l n="18" xml:id="edM_l_18">
+                    <l n="22" xml:id="edM_l_22">
                         <w xml:id="edM_w_000149">Mout</w>
                         <w xml:id="edM_w_000150">trevent</w>
                         <w xml:id="edM_w_000151">ens</w>
@@ -632,7 +627,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000154">menantie</w>
                         <pc type="supplied">,</pc>
                     </l>
-                    <l n="19" xml:id="edM_l_19">
+                    <l n="23" xml:id="edM_l_23">
                         <w xml:id="edM_w_000155">Tirez</w>
                         <w xml:id="edM_w_000156">et</w>
                         <w xml:id="edM_w_000157">poiles</w>
@@ -644,7 +639,7 @@ un peu partout. J'en ai rétabli certains.
                         <pc type="supplied">;</pc>
                         <note>Manque ibid.</note>
                     </l>
-                    <l n="20" xml:id="edM_l_20">
+                    <l n="24" xml:id="edM_l_24">
                         <w xml:id="edM_w_000162">Or</w>
                         <w xml:id="edM_w_000163">et</w>
                         <w xml:id="edM_w_000164">arjent</w>
@@ -653,7 +648,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000167">de</w>
                         <w xml:id="edM_w_000168">Surie</w>
                     </l>
-                    <l xml:id="edM_l_25" n="25">
+                    <l n="25" xml:id="edM_l_25">
                         <w xml:id="edM_w_000169">En</w>
                         <w xml:id="edM_w_000170">font</w>
                         <w xml:id="edM_w_000171">mener</w>
@@ -661,7 +656,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000173">riche</w>
                         <w xml:id="edM_w_000174">baronie</w>
                     </l>
-                    <l n="21" xml:id="edM_l_21">
+                    <l n="26" xml:id="edM_l_26">
                         <w xml:id="edM_w_000175">Droit</w>
                         <w xml:id="edM_w_000176">a</w>
                         <w xml:id="edM_w_000177">Viane</w>
@@ -681,7 +676,7 @@ un peu partout. J'en ai rétabli certains.
                         <note>B <mentioned>c. antive</mentioned>
                   </note>
                     </l>
-                    <l n="22" xml:id="edM_l_22">
+                    <l n="27" xml:id="edM_l_27">
                         <pc type="supplied">.</pc>
                         <w xml:id="edM_w_000183">I</w>
                         <pc type="supplied">.</pc>
@@ -698,7 +693,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000192">mie</w>
                         <pc type="supplied">:</pc>
                     </l>
-                    <l n="23" xml:id="edM_l_23">
+                    <l n="28" xml:id="edM_l_28">
                         <w xml:id="edM_w_000193">À</w>
                         <w xml:id="edM_w_000194">
                      <choice>
@@ -713,7 +708,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000197">barbe</w>
                         <w xml:id="edM_w_000198">florie</w>
                     </l>
-                    <l n="24" xml:id="edM_l_24" rend="indent">
+                    <l n="29" xml:id="edM_l_29" rend="indent">
                         <w xml:id="edM_w_000199">Ve<supplied resp="#PM" reason="language">t</supplied>
                   </w>
                         <w xml:id="edM_w_000200">conter</w>
@@ -723,7 +718,7 @@ un peu partout. J'en ai rétabli certains.
                     </l>
                 </lg>
                 <lg type="laisse">
-                    <l xml:id="edM_l_30" n="30">
+                    <l n="30" xml:id="edM_l_30">
                         <supplied resp="#PM" reason="damage">Part s‘en
                             li
                             mès
@@ -733,7 +728,7 @@ un peu partout. J'en ai rétabli certains.
                         <note>Vers coupé que je rétablis d‘après A. Il y a dans B Vait s‘en</note>
                     </l>
                     <pb n="1v" facs=""/>
-                    <l n="25" xml:id="edM_l_25">
+                    <l n="31" xml:id="edM_l_31">
                         <w xml:id="edM_w_000203">Sor</w>
                         <pc type="supplied">.</pc>
                         <w xml:id="edM_w_000204">j</w>
@@ -766,7 +761,7 @@ un peu partout. J'en ai rétabli certains.
                     <!-- après les app - lem -rdg ne sont pas mis... -->
                     <!-- JBC: manque de temps ? Il faudrait au moins, dans les notes, marquer les passages
                     cités (avec mentioned par exemple)-->
-                    <l n="26" xml:id="edM_l_26">
+                    <l n="32" xml:id="edM_l_32">
                         <w xml:id="edM_w_000216">Isnelement</w>
                         <w xml:id="edM_w_000217">est</w>
                         <w xml:id="edM_w_000218">du</w>
@@ -774,7 +769,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000220">devalé</w>
                         <pc type="supplied">,</pc>
                     </l>
-                    <l n="27" xml:id="edM_l_27">
+                    <l n="33" xml:id="edM_l_33">
                         <w xml:id="edM_w_000221">Jusq</w>
                         <pc type="supplied">‘</pc>
                         <w xml:id="edM_w_000222">a</w>
@@ -792,7 +787,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000228">aresté</w>
                         <pc type="supplied">;</pc>
                     </l>
-                    <l n="28" xml:id="edM_l_28">
+                    <l n="34" xml:id="edM_l_34">
                         <w xml:id="edM_w_000229">Le</w>
                         <w xml:id="edM_w_000230">roi</w>
                         <w xml:id="edM_w_000231">demande</w>
@@ -805,7 +800,7 @@ un peu partout. J'en ai rétabli certains.
                         <pc type="supplied">;</pc>
                         <note>Manquent ibid</note>
                     </l>
-                    <l xml:id="edM_l_35" n="35">
+                    <l n="35" xml:id="edM_l_35">
                         <w xml:id="edM_w_000237">Qant</w>
                         <w xml:id="edM_w_000238">il</w>
                         <w xml:id="edM_w_000239">le</w>
@@ -820,7 +815,7 @@ un peu partout. J'en ai rétabli certains.
                         <pc type="supplied">:</pc>
                         <note>Manquent ibid</note>
                     </l>
-                    <l n="29" xml:id="edM_l_29">
+                    <l n="36" xml:id="edM_l_36">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000246">Sire</w>
@@ -838,7 +833,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">:</pc>
                         </q>
                     </l>
-                    <l n="30" xml:id="edM_l_30">
+                    <l n="37" xml:id="edM_l_37">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000252">Ore</w>
@@ -849,7 +844,7 @@ un peu partout. J'en ai rétabli certains.
                             <w xml:id="edM_w_000257">cité</w>
                         </q>
                     </l>
-                    <l n="31" xml:id="edM_l_31">
+                    <l n="38" xml:id="edM_l_38">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000258">De</w>
@@ -874,7 +869,7 @@ un peu partout. J'en ai rétabli certains.
                      </note>
                         </q>
                     </l>
-                    <l n="32" xml:id="edM_l_32">
+                    <l n="39" xml:id="edM_l_39">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000267">Dont</w>
@@ -893,7 +888,7 @@ un peu partout. J'en ai rétabli certains.
                      </note>
                         </q>
                     </l>
-                    <l xml:id="edM_l_40" n="40">
+                    <l n="40" xml:id="edM_l_40">
                         <w xml:id="edM_w_000273">Li</w>
                         <w xml:id="edM_w_000274">rois</w>
                         <w xml:id="edM_w_000275">l</w>
@@ -910,7 +905,7 @@ un peu partout. J'en ai rétabli certains.
                         <note>AB <mentioned>l‘oï</mentioned>
                         </note>
                     </l>
-                    <l n="33" xml:id="edM_l_33">
+                    <l n="41" xml:id="edM_l_41">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000282">Qui</w>
@@ -934,7 +929,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000289">menbrez</w>
                         <pc type="supplied">,</pc>
                     </l>
-                    <l n="34" xml:id="edM_l_34">
+                    <l n="42" xml:id="edM_l_42">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000290">An</w>
@@ -954,7 +949,7 @@ un peu partout. J'en ai rétabli certains.
                                 celé</mentioned>.</note>
                         </q>
                     </l>
-                    <l n="35" xml:id="edM_l_35">
+                    <l n="43" xml:id="edM_l_43">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000299">Li</w>
@@ -981,7 +976,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="36" xml:id="edM_l_36">
+                    <l n="44" xml:id="edM_l_44">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000306">Mile</w>
@@ -994,7 +989,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l xml:id="edM_l_45" n="45">
+                    <l n="45" xml:id="edM_l_45">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000313">Entre</w>
@@ -1010,7 +1005,7 @@ un peu partout. J'en ai rétabli certains.
                             <note>Manque ibid.</note>
                         </q>
                     </l>
-                    <l n="37" xml:id="edM_l_37">
+                    <l n="46" xml:id="edM_l_46">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000322">Nen</w>
@@ -1024,7 +1019,7 @@ un peu partout. J'en ai rétabli certains.
                      </note>
                         </q>
                     </l>
-                    <l n="38" xml:id="edM_l_38">
+                    <l n="47" xml:id="edM_l_47">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000328">Q</w>
@@ -1042,7 +1037,7 @@ un peu partout. J'en ai rétabli certains.
                      </note>
                         </q>
                     </l>
-                    <l n="39" xml:id="edM_l_39" rend="indent">
+                    <l n="48" xml:id="edM_l_48" rend="indent">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000337">Por</w>
@@ -1058,7 +1053,7 @@ un peu partout. J'en ai rétabli certains.
                     </l>
                 </lg>
                 <lg type="laisse">
-                    <l n="40" xml:id="edM_l_40">
+                    <l n="49" xml:id="edM_l_49">
                         <w xml:id="edM_w_000342">Dist</w>
                         <w xml:id="edM_w_000343">li</w>
                         <w xml:id="edM_w_000344">messajes</w>
@@ -1069,7 +1064,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000348">celeron</w>
                         <pc type="supplied">:</pc>
                     </l>
-                    <l xml:id="edM_l_50" n="50">
+                    <l n="50" xml:id="edM_l_50">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000349">Biaus</w>
@@ -1082,7 +1077,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">:</pc>
                         </q>
                     </l>
-                    <l n="41" xml:id="edM_l_41">
+                    <l n="51" xml:id="edM_l_51">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000355">Entre</w>
@@ -1102,7 +1097,7 @@ un peu partout. J'en ai rétabli certains.
                                 vers 51 et le commencement du suivant</note>
                         </q>
                     </l>
-                    <l n="42" xml:id="edM_l_42">
+                    <l n="52" xml:id="edM_l_52">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000361">Ont</w>
@@ -1114,7 +1109,7 @@ un peu partout. J'en ai rétabli certains.
                             <w xml:id="edM_w_000367">bandon</w>
                         </q>
                     </l>
-                    <l n="43" xml:id="edM_l_43">
+                    <l n="53" xml:id="edM_l_53">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000368">Tote</w>
@@ -1128,7 +1123,7 @@ un peu partout. J'en ai rétabli certains.
                      </note>
                         </q>
                     </l>
-                    <l n="44" xml:id="edM_l_44">
+                    <l n="54" xml:id="edM_l_54">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000374">Et</w>
@@ -1152,7 +1147,7 @@ un peu partout. J'en ai rétabli certains.
                      </note>
                         </q>
                     </l>
-                    <l xml:id="edM_l_55" n="55">
+                    <l n="55" xml:id="edM_l_55">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000383">De</w>
@@ -1166,7 +1161,7 @@ un peu partout. J'en ai rétabli certains.
                      </note>
                         </q>
                     </l>
-                    <l n="45" xml:id="edM_l_45">
+                    <l n="56" xml:id="edM_l_56">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000388">Qi</w>
@@ -1180,7 +1175,7 @@ un peu partout. J'en ai rétabli certains.
                      </note>
                         </q>
                     </l>
-                    <l n="46" xml:id="edM_l_46">
+                    <l n="57" xml:id="edM_l_57">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000394">Qe</w>
@@ -1195,7 +1190,7 @@ un peu partout. J'en ai rétabli certains.
                                     <mentioned>panront</mentioned>.</note>
                         </q>
                     </l>
-                    <l n="47" xml:id="edM_l_47">
+                    <l n="58" xml:id="edM_l_58">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000401">Einz</w>
@@ -1206,7 +1201,7 @@ un peu partout. J'en ai rétabli certains.
                             <w xml:id="edM_w_000406">roion</w>
                         </q>
                     </l>
-                    <l n="48" xml:id="edM_l_48">
+                    <l n="59" xml:id="edM_l_59">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000407">Qe</w>
@@ -1230,7 +1225,7 @@ un peu partout. J'en ai rétabli certains.
                         <!--<p>Feuillet 2. - 5 Corr. s. le ramier.</p>-->
                         <p>Je donne en marge la concordance avec l‘édition partielle de Bekker.</p>
                     </note>
-                    <l n="49" xml:id="edM_l_49">
+                    <l n="60" xml:id="edM_l_60">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000414">Je</w>
@@ -1244,7 +1239,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">»</pc>
                         </q>
                     </l>
-                    <l n="50" xml:id="edM_l_50">
+                    <l n="61" xml:id="edM_l_61">
                         <w xml:id="edM_w_000421">Isnelement</w>
                         <w xml:id="edM_w_000422">monta</w>
                         <w xml:id="edM_w_000423">sor</w>
@@ -1254,7 +1249,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000425">destrier</w>
                         <pc type="supplied">;</pc>
                     </l>
-                    <l n="51" xml:id="edM_l_51">
+                    <l n="62" xml:id="edM_l_62">
                         <w xml:id="edM_w_000426">Parmi</w>
                         <w xml:id="edM_w_000427">la</w>
                         <w xml:id="edM_w_000428">porte</w>
@@ -1267,7 +1262,7 @@ un peu partout. J'en ai rétabli certains.
                         <pc type="supplied">,</pc>
                         <note>[70]</note>
                     </l>
-                    <l n="52" xml:id="edM_l_52">
+                    <l n="63" xml:id="edM_l_63">
                         <w xml:id="edM_w_000434">Einz</w>
                         <w xml:id="edM_w_000435">ne</w>
                         <w xml:id="edM_w_000436">fina</w>
@@ -1280,7 +1275,7 @@ un peu partout. J'en ai rétabli certains.
                         <pc type="supplied">;</pc>
                         <note>Corr. <mentioned>s. le ramier</mentioned>.</note>
                     </l>
-                    <l xml:id="edM_l_5" n="5">
+                    <l n="64" xml:id="edM_l_64">
                         <w xml:id="edM_w_000442">L</w>
                         <pc type="supplied">‘</pc>
                         <w xml:id="edM_w_000443">oisel</w>
@@ -1294,7 +1289,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000450">vergier</w>
                         <pc type="supplied">,</pc>
                     </l>
-                    <l n="53" xml:id="edM_l_53">
+                    <l n="65" xml:id="edM_l_65">
                         <w xml:id="edM_w_000451">Et</w>
                         <w xml:id="edM_w_000452">il</w>
                         <w xml:id="edM_w_000453">s</w>
@@ -1306,7 +1301,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000458">senestrier</w>
                         <pc type="supplied">.</pc>
                     </l>
-                    <l n="54" xml:id="edM_l_54">
+                    <l n="66" xml:id="edM_l_66">
                         <w xml:id="edM_w_000459">Voit</w>
                         <w xml:id="edM_w_000460">le</w>
                         <w xml:id="edM_w_000461">Rollant</w>
@@ -1321,7 +1316,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000467">aïrier</w>
                         <pc type="supplied">:</pc>
                     </l>
-                    <l n="55" xml:id="edM_l_55">
+                    <l n="67" xml:id="edM_l_67">
                         <w xml:id="edM_w_000468">A</w>
                         <w xml:id="edM_w_000469">haute</w>
                         <w xml:id="edM_w_000470">voiz</w>
@@ -1332,7 +1327,7 @@ un peu partout. J'en ai rétabli certains.
                         <pc type="supplied">:</pc>
                         <note>[75]</note>
                     </l>
-                    <l n="56" xml:id="edM_l_56">
+                    <l n="68" xml:id="edM_l_68">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000475">Es</w>
@@ -1347,7 +1342,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l xml:id="edM_l_10" n="10">
+                    <l n="69" xml:id="edM_l_69">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000482">Car</w>
@@ -1364,7 +1359,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">;</pc>
                         </q>
                     </l>
-                    <l n="57" xml:id="edM_l_57">
+                    <l n="70" xml:id="edM_l_70">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000492">Je</w>
@@ -1382,7 +1377,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">»</pc>
                         </q>
                     </l>
-                    <l n="58" xml:id="edM_l_58">
+                    <l n="71" xml:id="edM_l_71">
                         <w xml:id="edM_w_000499">Dist</w>
                         <w xml:id="edM_w_000500">Olivier</w>
                         <pc type="supplied">:</pc>
@@ -1394,7 +1389,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l n="59" xml:id="edM_l_59">
+                    <l n="72" xml:id="edM_l_72">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000504">Je</w>
@@ -1413,7 +1408,7 @@ un peu partout. J'en ai rétabli certains.
                         </q>
                         <note>[80]</note>
                     </l>
-                    <l n="60" xml:id="edM_l_60">
+                    <l n="73" xml:id="edM_l_73">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000512">De</w>
@@ -1424,7 +1419,7 @@ un peu partout. J'en ai rétabli certains.
                             <w xml:id="edM_w_000517">userier</w>
                         </q>
                     </l>
-                    <l xml:id="edM_l_15" n="15">
+                    <l n="74" xml:id="edM_l_74">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000518">Qui</w>
@@ -1441,7 +1436,7 @@ un peu partout. J'en ai rétabli certains.
         <l>54 B dan Ernalt le baron 55 4 De tost lo senble (les deux dernières</l>
         <l>lettres exponctudes) asemblé a f., B ait asamblé f. 56 A g. aatison, B aitis</l>
         <l>son 57 A prandront, B panront.</l> -->
-                    <l n="61" xml:id="edM_l_61">
+                    <l n="75" xml:id="edM_l_75">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000524">Cist</w>
@@ -1456,7 +1451,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">»</pc>
                         </q>
                     </l>
-                    <l n="62" xml:id="edM_l_62">
+                    <l n="76" xml:id="edM_l_76">
                         <w xml:id="edM_w_000531">Rollant</w>
                         <w xml:id="edM_w_000532">l</w>
                         <pc type="supplied">‘</pc>
@@ -1468,7 +1463,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000537">changier</w>
                         <pc type="supplied">:</pc>
                     </l>
-                    <l n="63" xml:id="edM_l_63">
+                    <l n="77" xml:id="edM_l_77">
                         <w xml:id="edM_w_000538">Trés</w>
                         <w xml:id="edM_w_000539">parmi</w>
                         <w xml:id="edM_w_000540">l</w>
@@ -1480,7 +1475,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000545">destrier</w>
                         <pc type="supplied">;</pc>
                     </l>
-                    <l n="64" xml:id="edM_l_64">
+                    <l n="78" xml:id="edM_l_78">
                         <w xml:id="edM_w_000546">De</w>
                         <w xml:id="edM_w_000547">l</w>
                         <pc type="supplied">‘</pc>
@@ -1492,7 +1487,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000553">vergier</w>
                         <pc type="supplied">;</pc>
                     </l>
-                    <l xml:id="edM_l_20" n="20">
+                    <l n="79" xml:id="edM_l_79">
                         <w xml:id="edM_w_000554">Par</w>
                         <w xml:id="edM_w_000555">les</w>
                         <pc type="supplied">.</pc>
@@ -1504,7 +1499,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000560">Olivier</w>
                         <pc type="supplied">,</pc>
                     </l>
-                    <l n="65" xml:id="edM_l_65">
+                    <l n="80" xml:id="edM_l_80">
                         <w xml:id="edM_w_000561">Cortoisement</w>
                         <w xml:id="edM_w_000562">le</w>
                         <w xml:id="edM_w_000563">prent</w>
@@ -1512,7 +1507,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000565">aresnier</w>
                         <pc type="supplied">:</pc>
                     </l>
-                    <l n="66" xml:id="edM_l_66">
+                    <l n="81" xml:id="edM_l_81">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000566">Com</w>
@@ -1527,7 +1522,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">:</pc>
                         </q>
                     </l>
-                    <l n="67" xml:id="edM_l_67">
+                    <l n="82" xml:id="edM_l_82">
                         <q>
                             <pc type="supplied">-</pc>
                             <w xml:id="edM_w_000574">Vassal</w>
@@ -1549,7 +1544,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">;</pc>
                         </q>
                     </l>
-                    <l n="68" xml:id="edM_l_68">
+                    <l n="83" xml:id="edM_l_83">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000582">Nez</w>
@@ -1564,7 +1559,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l xml:id="edM_l_25" n="25">
+                    <l n="84" xml:id="edM_l_84">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000590">Si</w>
@@ -1586,7 +1581,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">;</pc>
                         </q>
                     </l>
-                    <l n="69" xml:id="edM_l_69">
+                    <l n="85" xml:id="edM_l_85">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000599">Niés</w>
@@ -1607,7 +1602,7 @@ un peu partout. J'en ai rétabli certains.
                             <w xml:id="edM_w_000606">gerrier</w>
                         </q>
                     </l>
-                    <l n="70" xml:id="edM_l_70">
+                    <l n="86" xml:id="edM_l_86">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000607">Qe</w>
@@ -1621,7 +1616,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l n="71" xml:id="edM_l_71" rend="indent">
+                    <l n="87" xml:id="edM_l_87" rend="indent">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000615">Par</w>
@@ -1637,7 +1632,7 @@ un peu partout. J'en ai rétabli certains.
                     </l>
                 </lg>
                 <lg type="laisse">
-                    <l n="72" xml:id="edM_l_72">
+                    <l n="88" xml:id="edM_l_88">
                         <w xml:id="edM_w_000619">Qant</w>
                         <w xml:id="edM_w_000620">
                      <choice>
@@ -1652,7 +1647,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000623">Rollant</w>
                         <pc type="supplied">,</pc>
                     </l>
-                    <l xml:id="edM_l_30" n="30">
+                    <l n="89" xml:id="edM_l_89">
                         <w xml:id="edM_w_000624">Il</w>
                         <w xml:id="edM_w_000625">l</w>
                         <pc type="supplied">‘</pc>
@@ -1664,7 +1659,7 @@ un peu partout. J'en ai rétabli certains.
                     </l>
                     <!-- JBC: ce sont des manques dans le texte, qu'il faut encoder -->
                     <pb n="2v" facs=""/>
-                    <l n="73" xml:id="edM_l_73">
+                    <l n="90" xml:id="edM_l_90">
                         <q>
                             <pc type="supplied">«</pc>
                             <!--…. .....-->
@@ -1679,7 +1674,7 @@ un peu partout. J'en ai rétabli certains.
                                 parent</mentioned>.</note>
                         </q>
                     </l>
-                    <l n="74" xml:id="edM_l_74">
+                    <l n="91" xml:id="edM_l_91">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000632">Et</w>
@@ -1695,7 +1690,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l n="75" xml:id="edM_l_75">
+                    <l n="92" xml:id="edM_l_92">
                         <q>
                             <w xml:id="edM_w_000640">Amis</w>
                             <pc type="supplied">»</pc>
@@ -1716,7 +1711,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">;</pc>
                         </q>
                     </l>
-                    <l n="76" xml:id="edM_l_76">
+                    <l n="93" xml:id="edM_l_93">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000648">Niés</w>
@@ -1734,7 +1729,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l xml:id="edM_l_35" n="35">
+                    <l n="94" xml:id="edM_l_94">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000654">Par</w>
@@ -1746,7 +1741,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="77" xml:id="edM_l_77">
+                    <l n="95" xml:id="edM_l_95">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000660">Se</w>
@@ -1758,7 +1753,7 @@ un peu partout. J'en ai rétabli certains.
                             <w xml:id="edM_w_000666">comandement</w>
                         </q>
                     </l>
-                    <l n="78" xml:id="edM_l_78">
+                    <l n="96" xml:id="edM_l_96">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000667">Qe</w>
@@ -1771,7 +1766,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="79" xml:id="edM_l_79">
+                    <l n="97" xml:id="edM_l_97">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000674">Morz</w>
@@ -1798,7 +1793,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">:</pc>
                         </q>
                     </l>
-                    <l n="80" xml:id="edM_l_80">
+                    <l n="98" xml:id="edM_l_98">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000681">Jes</w>
@@ -1811,7 +1806,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l xml:id="edM_l_40" n="40">
+                    <l n="99" xml:id="edM_l_99">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000688">Rent</w>
@@ -1827,7 +1822,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l n="81" xml:id="edM_l_81">
+                    <l n="100" xml:id="edM_l_100">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000696">Je</w>
@@ -1843,7 +1838,7 @@ un peu partout. J'en ai rétabli certains.
                             <w xml:id="edM_w_000705">vant</w>
                         </q>
                     </l>
-                    <l n="82" xml:id="edM_l_82">
+                    <l n="101" xml:id="edM_l_101">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000706">Qe</w>
@@ -1860,7 +1855,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">»</pc>
                         </q>
                     </l>
-                    <l n="83" xml:id="edM_l_83">
+                    <l n="102" xml:id="edM_l_102">
                         <w xml:id="edM_w_000715">Dit</w>
                         <w xml:id="edM_w_000716">
                      <choice>
@@ -1881,7 +1876,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l n="84" xml:id="edM_l_84">
+                    <l n="103" xml:id="edM_l_103">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000722">Se</w>
@@ -1895,7 +1890,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">:</pc>
                         </q>
                     </l>
-                    <l n="85" xml:id="edM_l_85">
+                    <l n="104" xml:id="edM_l_104">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000730">Se</w>
@@ -1910,7 +1905,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l xml:id="edM_l_45" n="45">
+                    <l n="105" xml:id="edM_l_105">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000739">Einçois</w>
@@ -1926,7 +1921,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="86" xml:id="edM_l_86">
+                    <l n="106" xml:id="edM_l_106">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000746">Te</w>
@@ -1939,7 +1934,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="87" xml:id="edM_l_87">
+                    <l n="107" xml:id="edM_l_107">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000753">Ou</w>
@@ -1952,7 +1947,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="88" xml:id="edM_l_88" rend="indent">
+                    <l n="108" xml:id="edM_l_108" rend="indent">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000760">Por</w>
@@ -1967,7 +1962,7 @@ un peu partout. J'en ai rétabli certains.
                     </l>
                 </lg>
                 <lg type="laisse">
-                    <l n="89" xml:id="edM_l_89">
+                    <l n="109" xml:id="edM_l_109">
                         <w xml:id="edM_w_000766">Qant</w>
                         <w xml:id="edM_w_000767">Rollant</w>
                         <w xml:id="edM_w_000768">ot</w>
@@ -1983,7 +1978,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000771">parler</w>
                         <pc type="supplied">,</pc>
                     </l>
-                    <l n="90" xml:id="edM_l_90">
+                    <l n="110" xml:id="edM_l_110">
                         <w xml:id="edM_w_000772">Hauce</w>
                         <w xml:id="edM_w_000773">le</w>
                         <w xml:id="edM_w_000774">poing</w>
@@ -1998,7 +1993,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000780">doner</w>
                         <pc type="supplied">,</pc>
                     </l>
-                    <l n="91" xml:id="edM_l_91">
+                    <l n="111" xml:id="edM_l_111">
                         <w xml:id="edM_w_000781">Qant</w>
                         <w xml:id="edM_w_000782">tot</w>
                         <w xml:id="edM_w_000783">par</w>
@@ -2008,7 +2003,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000787">a</w>
                         <w xml:id="edM_w_000788">porpensser</w>
                     </l>
-                    <l n="92" xml:id="edM_l_92">
+                    <l n="112" xml:id="edM_l_112">
                         <w xml:id="edM_w_000789">Q</w>
                         <pc type="supplied">'</pc>
                         <w xml:id="edM_w_000790">il</w>
@@ -2018,7 +2013,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000794">aresoner</w>
                         <pc type="supplied">.</pc>
                     </l>
-                    <l n="93" xml:id="edM_l_93">
+                    <l n="113" xml:id="edM_l_113">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000795">Vassal</w>
@@ -2036,7 +2031,7 @@ un peu partout. J'en ai rétabli certains.
                             <w xml:id="edM_w_000801">rover</w>
                         </q>
                     </l>
-                    <l xml:id="edM_l_55" n="55">
+                    <l n="114" xml:id="edM_l_114">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000802">Qe</w>
@@ -2049,7 +2044,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="94" xml:id="edM_l_94">
+                    <l n="115" xml:id="edM_l_115">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000809">Par</w>
@@ -2062,7 +2057,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="95" xml:id="edM_l_95">
+                    <l n="116" xml:id="edM_l_116">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000816">Par</w>
@@ -2077,7 +2072,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">:</pc>
                         </q>
                     </l>
-                    <l n="96" xml:id="edM_l_96">
+                    <l n="117" xml:id="edM_l_117">
                         <q>
                             <pc type="supplied">«</pc>
                             <supplied resp="#PM" reason="damage">Qe</supplied>
@@ -2092,7 +2087,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="97" xml:id="edM_l_97">
+                    <l n="118" xml:id="edM_l_118">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000830">Qe</w>
@@ -2105,7 +2100,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">»</pc>
                         </q>
                     </l>
-                    <l xml:id="edM_l_60" n="60">
+                    <l n="119" xml:id="edM_l_119">
                         <w xml:id="edM_w_000836">Dist</w>
                         <w xml:id="edM_w_000837">
                      <choice>
@@ -2130,7 +2125,7 @@ un peu partout. J'en ai rétabli certains.
                     <!--<milestone n="3" ed="TARBE" unit="feuillet"/>-->
                     <!-- FEUILLETS 3 ET 4 (ÉD. TARBÉ, p. 134).</note> -->
 
-                    <l n="98" xml:id="edM_l_98">
+                    <l n="120" xml:id="edM_l_120">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000842">S</w>
@@ -2148,7 +2143,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l n="99" xml:id="edM_l_99">
+                    <l n="121" xml:id="edM_l_121">
                         <q>
                             <pc type="supplied">-</pc>
                             <w xml:id="edM_w_000851">Vassaus</w>
@@ -2176,7 +2171,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">;</pc>
                         </q>
                     </l>
-                    <l n="100" xml:id="edM_l_100">
+                    <l n="122" xml:id="edM_l_122">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000858">Dolenz</w>
@@ -2191,7 +2186,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l n="101" xml:id="edM_l_101">
+                    <l n="123" xml:id="edM_l_123">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000866">Granz</w>
@@ -2205,7 +2200,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l xml:id="edM_l_5" n="5">
+                    <l n="124" xml:id="edM_l_124">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000873">Si</w>
@@ -2221,7 +2216,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="102" xml:id="edM_l_102">
+                    <l n="125" xml:id="edM_l_125">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000881">Et</w>
@@ -2234,7 +2229,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">!</pc>
                         </q>
                     </l>
-                    <l n="103" xml:id="edM_l_103">
+                    <l n="126" xml:id="edM_l_126">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000888">Par</w>
@@ -2252,7 +2247,7 @@ un peu partout. J'en ai rétabli certains.
                         <note>7 <mentioned>qui</mentioned> ou <mentioned>qi</mentioned>, le mot est
                             abrégé. Il faut comprendre <mentioned>cui</mentioned> ; cf. v. 81</note>
                     </l>
-                    <l n="104" xml:id="edM_l_104">
+                    <l n="127" xml:id="edM_l_127">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000897">Ainz</w>
@@ -2270,7 +2265,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="105" xml:id="edM_l_105">
+                    <l n="128" xml:id="edM_l_128">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000907">Iert</w>
@@ -2290,7 +2285,7 @@ un peu partout. J'en ai rétabli certains.
                         </q>
                         <note>9 <mentioned>aquis</mentioned> (sic)</note>
                     </l>
-                    <l xml:id="edM_l_10" n="10">
+                    <l n="129" xml:id="edM_l_129">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000914">Que</w>
@@ -2301,7 +2296,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="106" xml:id="edM_l_106">
+                    <l n="130" xml:id="edM_l_130">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000919">Nuz</w>
@@ -2317,7 +2312,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="107" xml:id="edM_l_107">
+                    <l n="131" xml:id="edM_l_131">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000927">La</w>
@@ -2339,7 +2334,7 @@ un peu partout. J'en ai rétabli certains.
                             <bibl status="draft">Raoul de Cambrai, p. xxxij-xxxiij</bibl>
                   </note>
                     </l>
-                    <l n="108" xml:id="edM_l_108">
+                    <l n="132" xml:id="edM_l_132">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000937">D</w>
@@ -2356,7 +2351,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l n="109" xml:id="edM_l_109">
+                    <l n="133" xml:id="edM_l_133">
                         <q>
                             <w xml:id="edM_w_000946">Ce</w>
                             <w xml:id="edM_w_000947">n</w>
@@ -2374,7 +2369,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_000953">Olivier</w>
                         <pc type="supplied">,</pc>
                     </l>
-                    <l xml:id="edM_l_15" n="15">
+                    <l n="134" xml:id="edM_l_134">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000954">Car</w>
@@ -2394,7 +2389,7 @@ un peu partout. J'en ai rétabli certains.
                             <w xml:id="edM_w_000961">guerrier</w>
                         </q>
                     </l>
-                    <l n="110" xml:id="edM_l_110">
+                    <l n="135" xml:id="edM_l_135">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000962">Et</w>
@@ -2406,7 +2401,7 @@ un peu partout. J'en ai rétabli certains.
                     </l>
                 </lg>
                 <lg type="laisse">
-                    <l n="111" xml:id="edM_l_111">
+                    <l n="136" xml:id="edM_l_136">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000966">Droiz</w>
@@ -2421,7 +2416,7 @@ un peu partout. J'en ai rétabli certains.
                                 <mentioned>Dist Olivier li prouz et li seneiz</mentioned>
                   </note>
                     </l>
-                    <l n="112" xml:id="edM_l_112">
+                    <l n="137" xml:id="edM_l_137">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000971">Si</w>
@@ -2437,7 +2432,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="113" xml:id="edM_l_113">
+                    <l n="138" xml:id="edM_l_138">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000979">Tot</w>
@@ -2448,7 +2443,7 @@ un peu partout. J'en ai rétabli certains.
                             <w xml:id="edM_w_000984">conté</w>
                         </q>
                     </l>
-                    <l xml:id="edM_l_20" n="20">
+                    <l n="139" xml:id="edM_l_139">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000985">De</w>
@@ -2465,7 +2460,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l n="114" xml:id="edM_l_114">
+                    <l n="140" xml:id="edM_l_140">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_000994">Bien</w>
@@ -2477,7 +2472,7 @@ un peu partout. J'en ai rétabli certains.
                             <w xml:id="edM_w_001000">menbré</w>
                         </q>
                     </l>
-                    <l n="115" xml:id="edM_l_115">
+                    <l n="141" xml:id="edM_l_141">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001001">Que</w>
@@ -2490,7 +2485,7 @@ un peu partout. J'en ai rétabli certains.
                         </q>
                         <note>22 Ce vers manque dans B.</note>
                     </l>
-                    <l n="116" xml:id="edM_l_116">
+                    <l n="142" xml:id="edM_l_142">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001007">Viane</w>
@@ -2505,7 +2500,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">:</pc>
                         </q>
                     </l>
-                    <l n="117" xml:id="edM_l_117">
+                    <l n="143" xml:id="edM_l_143">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001014">Li</w>
@@ -2518,7 +2513,7 @@ un peu partout. J'en ai rétabli certains.
                             <w xml:id="edM_w_001021">chasés</w>
                         </q>
                     </l>
-                    <l xml:id="edM_l_25" n="25">
+                    <l n="144" xml:id="edM_l_144">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001022">Mes</w>
@@ -2533,7 +2528,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="118" xml:id="edM_l_118">
+                    <l n="145" xml:id="edM_l_145">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001029">Plus</w>
@@ -2554,7 +2549,7 @@ un peu partout. J'en ai rétabli certains.
                     <!-- PAS FAITE -->
                     <!--  </q></l>
         <l><q></q></l> -->
-                    <l n="119" xml:id="edM_l_119">
+                    <l n="146" xml:id="edM_l_146">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001037">Ainz</w>
@@ -2570,7 +2565,7 @@ un peu partout. J'en ai rétabli certains.
                      <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l n="120" xml:id="edM_l_120">
+                    <l n="147" xml:id="edM_l_147">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001045">Or</w>
@@ -2587,7 +2582,7 @@ un peu partout. J'en ai rétabli certains.
                             <note>[1200]</note>
                         </q>
                     </l>
-                    <l n="121" xml:id="edM_l_121">
+                    <l n="148" xml:id="edM_l_148">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001051">Qant</w>
@@ -2600,7 +2595,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l xml:id="edM_l_30" n="30">
+                    <l n="149" xml:id="edM_l_149">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001055">Pechiez</w>
@@ -2612,7 +2607,7 @@ un peu partout. J'en ai rétabli certains.
                         </q>
                     </l>
                     <pb n="3v" facs=""/>
-                    <l n="122" xml:id="edM_l_122">
+                    <l n="150" xml:id="edM_l_150">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001059">Mès</w>
@@ -2643,7 +2638,7 @@ un peu partout. J'en ai rétabli certains.
                             <note>(v°)</note>
                         </q>
                     </l>
-                    <l n="123" xml:id="edM_l_123">
+                    <l n="151" xml:id="edM_l_151">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001070">La</w>
@@ -2656,7 +2651,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="124" xml:id="edM_l_124">
+                    <l n="152" xml:id="edM_l_152">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001077">Einz</w>
@@ -2668,7 +2663,7 @@ un peu partout. J'en ai rétabli certains.
                             <note>[1205]</note>
                         </q>
                     </l>
-                    <l n="125" xml:id="edM_l_125">
+                    <l n="153" xml:id="edM_l_153">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001083">Ne</w>
@@ -2682,7 +2677,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l xml:id="edM_l_35" n="35">
+                    <l n="154" xml:id="edM_l_154">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001090">Serai</w>
@@ -2694,7 +2689,7 @@ un peu partout. J'en ai rétabli certains.
                             <w xml:id="edM_w_001096">passez</w>
                         </q>
                     </l>
-                    <l n="126" xml:id="edM_l_126">
+                    <l n="155" xml:id="edM_l_155">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001097">A</w>
@@ -2713,7 +2708,7 @@ un peu partout. J'en ai rétabli certains.
                                 oit de fierté</mentioned>
                   </note>
                     </l>
-                    <l n="127" xml:id="edM_l_127">
+                    <l n="156" xml:id="edM_l_156">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001105">Ne</w>
@@ -2728,7 +2723,7 @@ un peu partout. J'en ai rétabli certains.
                             <note>[1210]</note>
                         </q>
                     </l>
-                    <l n="128" xml:id="edM_l_128">
+                    <l n="157" xml:id="edM_l_157">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001113">Chargera</w>
@@ -2743,7 +2738,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">;</pc>
                         </q>
                     </l>
-                    <l n="129" xml:id="edM_l_129">
+                    <l n="158" xml:id="edM_l_158">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001119">Ses</w>
@@ -2758,7 +2753,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">;</pc>
                         </q>
                     </l>
-                    <l xml:id="edM_l_40" n="40">
+                    <l n="159" xml:id="edM_l_159">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001127">S</w>
@@ -2776,7 +2771,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="130" xml:id="edM_l_130">
+                    <l n="160" xml:id="edM_l_160">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001135">Les</w>
@@ -2789,7 +2784,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l n="131" xml:id="edM_l_131">
+                    <l n="161" xml:id="edM_l_161">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001142">Quant</w>
@@ -2802,7 +2797,7 @@ un peu partout. J'en ai rétabli certains.
                             <note>[1215]</note>
                         </q>
                     </l>
-                    <l n="132" xml:id="edM_l_132">
+                    <l n="162" xml:id="edM_l_162">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001148">L</w>
@@ -2814,7 +2809,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">;</pc>
                         </q>
                     </l>
-                    <l n="133" xml:id="edM_l_133">
+                    <l n="163" xml:id="edM_l_163">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001152">Chevaucherons</w>
@@ -2823,7 +2818,7 @@ un peu partout. J'en ai rétabli certains.
                             <w xml:id="edM_w_001155">poesté</w>
                         </q>
                     </l>
-                    <l xml:id="edM_l_45" n="45">
+                    <l n="164" xml:id="edM_l_164">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001156">De</w>
@@ -2837,7 +2832,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l n="134" xml:id="edM_l_134">
+                    <l n="165" xml:id="edM_l_165">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001164">Ne</w>
@@ -2850,7 +2845,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="135" xml:id="edM_l_135">
+                    <l n="166" xml:id="edM_l_166">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001171">Ne</w>
@@ -2863,7 +2858,7 @@ un peu partout. J'en ai rétabli certains.
                             <note>[1220]</note>
                         </q>
                     </l>
-                    <l n="136" xml:id="edM_l_136">
+                    <l n="167" xml:id="edM_l_167">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001178">Qe</w>
@@ -2876,7 +2871,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l n="137" xml:id="edM_l_137">
+                    <l n="168" xml:id="edM_l_168">
                         <q>
                             <w xml:id="edM_w_001185">Fos</w>
                             <pc type="supplied">!</pc>
@@ -2896,7 +2891,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">:</pc>
                         </q>
                     </l>
-                    <l xml:id="edM_l_50" n="50">
+                    <l n="169" xml:id="edM_l_169">
                         <q>
                             <w xml:id="edM_w_001193">Ceste</w>
                             <w xml:id="edM_w_001194">vantance</w>
@@ -2911,7 +2906,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">»</pc>
                         </q>
                     </l>
-                    <l n="138" xml:id="edM_l_138">
+                    <l n="170" xml:id="edM_l_170">
                         <supplied resp="#PM" reason="damage">A</supplied>
                         <w xml:id="edM_w_001200">ces</w>
                         <w xml:id="edM_w_001201">paroles</w>
@@ -2922,7 +2917,7 @@ un peu partout. J'en ai rétabli certains.
                         <pc type="supplied">‘</pc>
                         <w xml:id="edM_w_001206">oez</w>
                     </l>
-                    <l n="139" xml:id="edM_l_139">
+                    <l n="171" xml:id="edM_l_171">
                         <w xml:id="edM_w_001207">
                      <supplied resp="#PM" reason="damage">De</supplied>denz</w>
                         <w xml:id="edM_w_001208">le</w>
@@ -2934,7 +2929,7 @@ un peu partout. J'en ai rétabli certains.
                         <pc type="supplied">.</pc>
                         <note>[1225]</note>
                     </l>
-                    <l n="140" xml:id="edM_l_140">
+                    <l n="172" xml:id="edM_l_172">
                         <supplied resp="#PM" reason="damage">Et</supplied>
                         <w xml:id="edM_w_001214">ovec</w>
                         <w xml:id="edM_w_001215">lui</w>
@@ -2946,7 +2941,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_001221">lez</w>
                         <pc type="supplied">.</pc>
                     </l>
-                    <l n="141" xml:id="edM_l_141">
+                    <l n="173" xml:id="edM_l_173">
                         <w xml:id="edM_w_001222">
                      <supplied resp="#PM" reason="damage">De</supplied>lez</w>
                         <w xml:id="edM_w_001223">le</w>
@@ -2958,7 +2953,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_001228">acoutez</w>
                         <pc type="supplied">.</pc>
                     </l>
-                    <l xml:id="edM_l_55" n="55">
+                    <l n="174" xml:id="edM_l_174">
                         <w xml:id="edM_w_001229">
                      <supplied resp="#PM" reason="damage">U</supplied>imès</w>
                         <w xml:id="edM_w_001230">orrez</w>
@@ -2967,7 +2962,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_001233">fiertez</w>
                         <pc type="supplied">,</pc>
                     </l>
-                    <l n="142" xml:id="edM_l_142">
+                    <l n="175" xml:id="edM_l_175">
                         <supplied resp="#PM" reason="damage">Com</supplied>
                         <w xml:id="edM_w_001234">Olivier</w>
                         <w xml:id="edM_w_001235">et</w>
@@ -2975,7 +2970,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_001237">furent</w>
                         <w xml:id="edM_w_001238">armez</w>
                     </l>
-                    <l n="143" xml:id="edM_l_143">
+                    <l n="176" xml:id="edM_l_176">
                         <supplied resp="#PM" reason="damage">En</supplied>
                         <w xml:id="edM_w_001239" rend="elision">
                      <supplied resp="#PM" reason="damage">l</supplied>
@@ -2989,7 +2984,7 @@ un peu partout. J'en ai rétabli certains.
                     </l>
                 </lg>
                 <lg type="laisse">
-                    <l n="144" xml:id="edM_l_144">
+                    <l n="177" xml:id="edM_l_177">
                         <supplied resp="#PM" reason="damage">Ce
                             dit
                             Roll.</supplied>
@@ -2999,7 +2994,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_001246">hardie</w>
                         <pc type="supplied">:</pc>
                     </l>
-                    <l n="145" xml:id="edM_l_145">
+                    <l n="178" xml:id="edM_l_178">
                         <q>
                             <pc type="supplied">«</pc>
                             <supplied resp="#PM" reason="damage">Drois
@@ -3010,7 +3005,7 @@ un peu partout. J'en ai rétabli certains.
                             <w xml:id="edM_w_001249">contralie</w>
                         </q>
                     </l>
-                    <l xml:id="edM_l_60" n="60">
+                    <l n="179" xml:id="edM_l_179">
                         <q>
                             <pc type="supplied">«</pc>
                             <supplied resp="#PM" reason="damage">Cist
@@ -3026,7 +3021,7 @@ un peu partout. J'en ai rétabli certains.
                         </q>
                     </l>
                     <pb n="4r" facs=""/>
-                    <l n="146" xml:id="edM_l_146">
+                    <l n="180" xml:id="edM_l_180">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001254">Olivier</w>
@@ -3041,7 +3036,7 @@ un peu partout. J'en ai rétabli certains.
                             <note>(fol. 4)</note>
                         </q>
                     </l>
-                    <l n="147" xml:id="edM_l_147">
+                    <l n="181" xml:id="edM_l_181">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001260">Veus</w>
@@ -3054,7 +3049,7 @@ un peu partout. J'en ai rétabli certains.
                             <note>[123 5]</note>
                         </q>
                     </l>
-                    <l n="148" xml:id="edM_l_148">
+                    <l n="182" xml:id="edM_l_182">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001267">Li</w>
@@ -3077,7 +3072,7 @@ un peu partout. J'en ai rétabli certains.
                         </q>
                         <note>63 Corr. <mentioned>q‘il n‘ait sa foi</mentioned>.</note>
                     </l>
-                    <l n="149" xml:id="edM_l_149">
+                    <l n="183" xml:id="edM_l_183">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001276">Envers</w>
@@ -3095,7 +3090,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">»</pc>
                         </q>
                     </l>
-                    <l xml:id="edM_l_65" n="65">
+                    <l n="184" xml:id="edM_l_184">
                         <w xml:id="edM_w_001284">Dist</w>
                         <w xml:id="edM_w_001285">Olivier</w>
                         <pc type="supplied">:</pc>
@@ -3107,7 +3102,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l n="150" xml:id="edM_l_150">
+                    <l n="185" xml:id="edM_l_185">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001289">Sire</w>
@@ -3127,7 +3122,7 @@ un peu partout. J'en ai rétabli certains.
                         </q>
                         <note>66 Vers qui manque dans B</note>
                     </l>
-                    <l n="151" xml:id="edM_l_151">
+                    <l n="186" xml:id="edM_l_186">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001294">Pleüst</w>
@@ -3143,7 +3138,7 @@ un peu partout. J'en ai rétabli certains.
                         <note>67 C‘est bien <mentioned>fuiz</mentioned>, et non
                                 <mentioned>fiuz</mentioned>, que porte le ms.</note>
                     </l>
-                    <l n="152" xml:id="edM_l_152">
+                    <l n="187" xml:id="edM_l_187">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001301">La</w>
@@ -3156,7 +3151,7 @@ un peu partout. J'en ai rétabli certains.
                             <note>[1240]</note>
                         </q>
                     </l>
-                    <l n="153" xml:id="edM_l_153">
+                    <l n="188" xml:id="edM_l_188">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001308">Qe</w>
@@ -3171,7 +3166,7 @@ un peu partout. J'en ai rétabli certains.
                             <w xml:id="edM_w_001315">esclarcie</w>
                         </q>
                     </l>
-                    <l xml:id="edM_l_70" n="70">
+                    <l n="189" xml:id="edM_l_189">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001316">Dessoz</w>
@@ -3184,7 +3179,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="154" xml:id="edM_l_154">
+                    <l n="190" xml:id="edM_l_190">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001322">Vendrez</w>
@@ -3201,7 +3196,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="155" xml:id="edM_l_155">
+                    <l n="191" xml:id="edM_l_191">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001330">Trestot</w>
@@ -3213,7 +3208,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="156" xml:id="edM_l_156">
+                    <l n="192" xml:id="edM_l_192">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001336">Et</w>
@@ -3225,7 +3220,7 @@ un peu partout. J'en ai rétabli certains.
                             <note>[124 5]</note>
                         </q>
                     </l>
-                    <l n="157" xml:id="edM_l_157">
+                    <l n="193" xml:id="edM_l_193">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001341">Je</w>
@@ -3245,7 +3240,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l xml:id="edM_l_75" n="75">
+                    <l n="194" xml:id="edM_l_194">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001348">Et</w>
@@ -3268,7 +3263,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">»</pc>
                         </q>
                     </l>
-                    <l n="158" xml:id="edM_l_158">
+                    <l n="195" xml:id="edM_l_195">
                         <w xml:id="edM_w_001356">Rollant</w>
                         <w xml:id="edM_w_001357">l</w>
                         <pc type="supplied">‘</pc>
@@ -3281,7 +3276,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_001363">fremie</w>
                         <pc type="supplied">.</pc>
                     </l>
-                    <l n="159" xml:id="edM_l_159">
+                    <l n="196" xml:id="edM_l_196">
                         <w xml:id="edM_w_001364">Honte</w>
                         <w xml:id="edM_w_001365">ot</w>
                         <w xml:id="edM_w_001366">por</w>
@@ -3291,7 +3286,7 @@ un peu partout. J'en ai rétabli certains.
                     </l>
                 </lg>
                 <lg type="laisse">
-                    <l n="160" xml:id="edM_l_160">
+                    <l n="197" xml:id="edM_l_197">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001369">Sire</w>
@@ -3307,7 +3302,7 @@ un peu partout. J'en ai rétabli certains.
                         <pc type="supplied">,</pc>
                         <note>[1250]</note>
                     </l>
-                    <l n="161" xml:id="edM_l_161">
+                    <l n="198" xml:id="edM_l_198">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001375">Li</w>
@@ -3328,7 +3323,7 @@ un peu partout. J'en ai rétabli certains.
                             <w xml:id="edM_w_001382">parjuré</w>
                         </q>
                     </l>
-                    <l xml:id="edM_l_80" n="80">
+                    <l n="199" xml:id="edM_l_199">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001383">Envers</w>
@@ -3341,7 +3336,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="162" xml:id="edM_l_162">
+                    <l n="200" xml:id="edM_l_200">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001389">Qui</w>
@@ -3356,7 +3351,7 @@ un peu partout. J'en ai rétabli certains.
                         <note>81 <mentioned>Qui</mentioned> ou <mentioned>qi</mentioned>, le mot est
                             abrégé; de même v. 107</note>
                     </l>
-                    <l n="163" xml:id="edM_l_163">
+                    <l n="201" xml:id="edM_l_201">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001396">Ne</w>
@@ -3369,7 +3364,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="164" xml:id="edM_l_164">
+                    <l n="202" xml:id="edM_l_202">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001403">Donjon</w>
@@ -3384,7 +3379,7 @@ un peu partout. J'en ai rétabli certains.
                             <note>[1255]</note>
                         </q>
                     </l>
-                    <l n="165" xml:id="edM_l_165">
+                    <l n="203" xml:id="edM_l_203">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001409">Foïr</w>
@@ -3398,7 +3393,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l xml:id="edM_l_85" n="85">
+                    <l n="204" xml:id="edM_l_204">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001415">Outre</w>
@@ -3412,7 +3407,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l n="166" xml:id="edM_l_166">
+                    <l n="205" xml:id="edM_l_205">
                         <q>
                             <w xml:id="edM_w_001421">Sire</w>
                             <w xml:id="edM_w_001422">Rollant</w>
@@ -3426,7 +3421,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_001426">aduré</w>
                         <pc type="supplied">,</pc>
                     </l>
-                    <l n="167" xml:id="edM_l_167">
+                    <l n="206" xml:id="edM_l_206">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001427">Si</w>
@@ -3443,7 +3438,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">:</pc>
                         </q>
                     </l>
-                    <l n="168" xml:id="edM_l_168">
+                    <l n="207" xml:id="edM_l_207">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001436">Li</w>
@@ -3462,7 +3457,7 @@ un peu partout. J'en ai rétabli certains.
                             <note>[1260]</note>
                         </q>
                     </l>
-                    <l n="169" xml:id="edM_l_169">
+                    <l n="208" xml:id="edM_l_208">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001442">Et</w>
@@ -3475,7 +3470,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l xml:id="edM_l_90" n="90">
+                    <l n="209" xml:id="edM_l_209">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001449">Et</w>
@@ -3487,7 +3482,7 @@ un peu partout. J'en ai rétabli certains.
                         </q>
                     </l>
                     <pb n="4v" facs=""/>
-                    <l n="170" xml:id="edM_l_170">
+                    <l n="210" xml:id="edM_l_210">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001454">S</w>
@@ -3504,7 +3499,7 @@ un peu partout. J'en ai rétabli certains.
                         </q>
                         <note>91 Prez est abrégé et l‘abréviation donne plutôl pré que prez.</note>
                     </l>
-                    <l n="171" xml:id="edM_l_171">
+                    <l n="211" xml:id="edM_l_211">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001462">Ja</w>
@@ -3520,7 +3515,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">»</pc>
                         </q>
                     </l>
-                    <l n="172" xml:id="edM_l_172">
+                    <l n="212" xml:id="edM_l_212">
                         <w xml:id="edM_w_001470">Dit</w>
                         <corr resp="#PM" type="editorial">
                      <w xml:id="edM_w_001471">Olivier</w>
@@ -3536,7 +3531,7 @@ un peu partout. J'en ai rétabli certains.
                         </q>
                         <note>[1265]</note>
                     </l>
-                    <l n="173" xml:id="edM_l_173">
+                    <l n="213" xml:id="edM_l_213">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001476">Li</w>
@@ -3551,7 +3546,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l xml:id="edM_l_95" n="95">
+                    <l n="214" xml:id="edM_l_214">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001483">Mès</w>
@@ -3566,7 +3561,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l n="174" xml:id="edM_l_174">
+                    <l n="215" xml:id="edM_l_215">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001491">Sire</w>
@@ -3578,7 +3573,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">:</pc>
                         </q>
                     </l>
-                    <l n="175" xml:id="edM_l_175">
+                    <l n="216" xml:id="edM_l_216">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001496">Estes</w>
@@ -3591,7 +3586,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">?</pc>
                         </q>
                     </l>
-                    <l n="176" xml:id="edM_l_176">
+                    <l n="217" xml:id="edM_l_217">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001503">La</w>
@@ -3604,7 +3599,7 @@ un peu partout. J'en ai rétabli certains.
                             <note>[1270]</note>
                         </q>
                     </l>
-                    <l n="177" xml:id="edM_l_177">
+                    <l n="218" xml:id="edM_l_218">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001510">Dessoz</w>
@@ -3618,7 +3613,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l xml:id="edM_l_100" n="100">
+                    <l n="219" xml:id="edM_l_219">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001516">Le</w>
@@ -3631,7 +3626,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l n="178" xml:id="edM_l_178">
+                    <l n="220" xml:id="edM_l_220">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001522">N</w>
@@ -3646,7 +3641,7 @@ un peu partout. J'en ai rétabli certains.
                             <w xml:id="edM_w_001530">nez</w>
                         </q>
                     </l>
-                    <l n="179" xml:id="edM_l_179">
+                    <l n="221" xml:id="edM_l_221">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001531">Fors</w>
@@ -3658,7 +3653,7 @@ un peu partout. J'en ai rétabli certains.
                             <w xml:id="edM_w_001537">montez</w>
                         </q>
                     </l>
-                    <l n="180" xml:id="edM_l_180">
+                    <l n="222" xml:id="edM_l_222">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001538">Et</w>
@@ -3670,7 +3665,7 @@ un peu partout. J'en ai rétabli certains.
                             <note>[1275]</note>
                         </q>
                     </l>
-                    <l n="181" xml:id="edM_l_181">
+                    <l n="223" xml:id="edM_l_223">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001544">Je</w>
@@ -3691,7 +3686,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l xml:id="edM_l_105" n="105">
+                    <l n="224" xml:id="edM_l_224">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001551">Et</w>
@@ -3705,7 +3700,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">.</pc>
                         </q>
                     </l>
-                    <l n="182" xml:id="edM_l_182">
+                    <l n="225" xml:id="edM_l_225">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001559">Puis</w>
@@ -3718,7 +3713,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">,</pc>
                         </q>
                     </l>
-                    <l n="183" xml:id="edM_l_183">
+                    <l n="226" xml:id="edM_l_226">
                         <q>
                             <pc type="supplied">«</pc>
                             <w xml:id="edM_w_001566">Se</w>
@@ -3738,7 +3733,7 @@ un peu partout. J'en ai rétabli certains.
                             <pc type="supplied">»</pc>
                         </q>
                     </l>
-                    <l n="184" xml:id="edM_l_184">
+                    <l n="227" xml:id="edM_l_227">
                         <w xml:id="edM_w_001576">Rollant</w>
                         <w xml:id="edM_w_001577">l</w>
                         <pc type="supplied">‘</pc>
@@ -3751,7 +3746,7 @@ un peu partout. J'en ai rétabli certains.
                         <pc type="supplied">;</pc>
                         <note>[1280]</note>
                     </l>
-                    <l n="185" xml:id="edM_l_185">
+                    <l n="228" xml:id="edM_l_228">
                         <w xml:id="edM_w_001583">Ferir</w>
                         <w xml:id="edM_w_001584">le</w>
                         <w xml:id="edM_w_001585">vout</w>
@@ -3763,7 +3758,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_001589">est</w>
                         <w xml:id="edM_w_001590">porpenssez</w>
                     </l>
-                    <l xml:id="edM_l_110" n="110">
+                    <l n="229" xml:id="edM_l_229">
                         <w xml:id="edM_w_001591">Si</w>
                         <w xml:id="edM_w_001592">le</w>
                         <w xml:id="edM_w_001593">tochoit</w>
@@ -3773,7 +3768,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_001597">blasmez</w>
                         <pc type="supplied">;</pc>
                     </l>
-                    <l n="186" xml:id="edM_l_186">
+                    <l n="230" xml:id="edM_l_230">
                         <w xml:id="edM_w_001598">Bien</w>
                         <w xml:id="edM_w_001599">doit</w>
                         <w xml:id="edM_w_001600">message</w>
@@ -3782,7 +3777,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_001603">volenté</w>
                         <pc type="supplied">.</pc>
                     </l>
-                    <l n="187" xml:id="edM_l_187">
+                    <l n="231" xml:id="edM_l_231">
                         <w xml:id="edM_w_001604">De</w>
                         <w xml:id="edM_w_001605">ce</w>
                         <w xml:id="edM_w_001606">fu</w>
@@ -3790,7 +3785,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_001608">Rollant</w>
                         <w xml:id="edM_w_001609">amesuré</w>
                     </l>
-                    <l n="188" xml:id="edM_l_188">
+                    <l n="232" xml:id="edM_l_232">
                         <w xml:id="edM_w_001610">Qu</w>
                         <pc type="supplied">‘</pc>
                         <w xml:id="edM_w_001611">il</w>
@@ -3804,7 +3799,7 @@ un peu partout. J'en ai rétabli certains.
                         <pc type="supplied">.</pc>
                         <note>[1285]</note>
                     </l>
-                    <l n="189" xml:id="edM_l_189">
+                    <l n="233" xml:id="edM_l_233">
                         <w xml:id="edM_w_001619">Il</w>
                         <w xml:id="edM_w_001620">tret</w>
                         <w xml:id="edM_w_001621">son</w>
@@ -3816,7 +3811,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_001627">parez</w>
                         <pc type="supplied">,</pc>
                     </l>
-                    <l xml:id="edM_l_115" n="115">
+                    <l n="234" xml:id="edM_l_234">
                         <w xml:id="edM_w_001628">Puis</w>
                         <w xml:id="edM_w_001629">vint</w>
                         <w xml:id="edM_w_001630">au</w>
@@ -3828,7 +3823,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_001635">presenté</w>
                         <pc type="supplied">,</pc>
                     </l>
-                    <l n="190" xml:id="edM_l_190">
+                    <l n="235" xml:id="edM_l_235">
                         <w xml:id="edM_w_001636">Son</w>
                         <w xml:id="edM_w_001637">gaje</w>
                         <w xml:id="edM_w_001638">done</w>
@@ -3839,7 +3834,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_001642">barné</w>
                         <pc type="supplied">,</pc>
                     </l>
-                    <l n="191" xml:id="edM_l_191">
+                    <l n="236" xml:id="edM_l_236">
                         <w xml:id="edM_w_001643">Vers</w>
                         <w xml:id="edM_w_001644">Olivier</w>
                         <w xml:id="edM_w_001645">qi</w>
@@ -3851,7 +3846,7 @@ un peu partout. J'en ai rétabli certains.
                                 seneiz</mentioned>
                   </note>
                     </l>
-                    <l n="192" xml:id="edM_l_192">
+                    <l n="237" xml:id="edM_l_237">
                         <w xml:id="edM_w_001649">Par</w>
                         <w xml:id="edM_w_001650">tel</w>
                         <w xml:id="edM_w_001651">covent</w>
@@ -3864,7 +3859,7 @@ un peu partout. J'en ai rétabli certains.
                                 <mentioned>q‘andui</mentioned>.</note>
                         <note>[1290]</note>
                     </l>
-                    <l n="193" xml:id="edM_l_193">
+                    <l n="238" xml:id="edM_l_238">
                         <w xml:id="edM_w_001656">En</w>
                         <w xml:id="edM_w_001657">la</w>
                         <w xml:id="edM_w_001658">grant</w>
@@ -3876,7 +3871,7 @@ un peu partout. J'en ai rétabli certains.
                         <w xml:id="edM_w_001663">gué</w>
                         <pc type="supplied">,</pc>
                     </l>
-                    <l xml:id="edM_l_120" n="120">
+                    <l n="239" xml:id="edM_l_239">
                         <w xml:id="edM_w_001664">Por</w>
                         <w xml:id="edM_w_001665">fere</w>
                         <w xml:id="edM_w_001666">la</w>
